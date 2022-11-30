@@ -1,1 +1,7 @@
-# Read instructions first
+# Documentation
+
+# Environment Installation & Set up
+
+# Inference
+
+# Training
