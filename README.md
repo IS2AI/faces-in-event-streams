@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/5821328/206463838-fddf986f-6e5a-43d8-ac15-e441fe3930bd.png)
+
+
 # Documentation
 
 This repo contains pre-trained models, pre-processing scripts and instructions to train models for face and facial landmark detection from events streams. 
