@@ -3,6 +3,9 @@
 ![image](https://user-images.githubusercontent.com/5821328/209900479-cf9b2eb2-6e7e-414a-9739-930cc313da23.png)
 
 
+Our dataset contains 693 minutes of recorded event streams, and 1.6 million annotated faces with bounding boxes and five point facial landmarks.
+
+
 
 
 # Documentation
