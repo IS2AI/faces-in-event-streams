@@ -4,7 +4,7 @@
 
 
 
-Our dataset contains 693 minutes of recorded event streams, and 1.6 million annotated faces with bounding boxes and five point facial landmarks.
+Our dataset contains 693 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks.
 
 
 
