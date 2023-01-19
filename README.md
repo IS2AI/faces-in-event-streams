@@ -6,7 +6,7 @@
 
 Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks.
 
-To access the dataset please follow the link and provide your informaton: https://forms.gle/R7WHmVueCoyvYvrY9
+To access the dataset and pre-trained models, please follow the link and provide your informaton: https://forms.gle/R7WHmVueCoyvYvrY9
 After filling out the form, you will receive credentials and instructions on how to connect to our server where dataset is located.
 
 
