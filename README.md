@@ -14,7 +14,7 @@ After filling out the form, you will receive credentials and instructions on how
 
 # Documentation
 
-Further, this repo contains pre-trained models, pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. 
+Further, this repo contains pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. 
 
 # Environment Installation & Set up
 To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
