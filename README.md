@@ -26,5 +26,6 @@ If you use Windows, please proceed with the following instructions:
 https://docs.prophesee.ai/stable/installation/windows.html
 
 # Inference
-
+To be able to rub face bounding box or boundingx box + facial landmarks detection, please proceed with the following instructions:
+https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference
 # Training
