@@ -5,7 +5,8 @@
 
 
 Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks.
-
+To access the dataset please follow the link to get the access to the dataset: https://forms.gle/R7WHmVueCoyvYvrY9
+After filling out the form, you will be provided with credentials and instructions on how to connect to our server. Then you will have access to the FES dataset.
 
 
 
