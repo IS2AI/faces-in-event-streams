@@ -24,9 +24,10 @@ https://docs.prophesee.ai/stable/installation/linux.html
 
 If you use Windows, please proceed with the following instructions:
 https://docs.prophesee.ai/stable/installation/windows.html
-
+```
 # Downloading the repository
 $ git clone https://github.com/IS2AI/faces-in-event-streams
+```
 
 # Inference
 To be able to run face bounding box or bounding box + facial landmarks detection models, please proceed with the following instructions:
