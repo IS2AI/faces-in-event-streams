@@ -37,5 +37,6 @@ https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and
 # Training
 1. To be able to train the model to detect face bounding box in event streams, follow these instructions:
 https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training
+
 2.To be able to select the feature extractor, you need to define in the option using:
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
