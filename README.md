@@ -15,7 +15,7 @@ Our dataset contains 689 minutes of recorded event streams, and 1.6 million anno
 
 ## Documentation
 
-Further, this repo contains pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. 
+<h1 align="center"> Further, this repo contains pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. </h1>
 
 ## Environment Installation & Set up
 To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
