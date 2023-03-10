@@ -4,7 +4,7 @@
 
 
 
-Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks.
+<p align="center"> Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks. </p>
 
 - To access the dataset and pre-trained models from our servers directly, please follow the [link]( https://forms.gle/R7WHmVueCoyvYvrY9) and provide your informaton.
  After filling out the form, you will receive credentials and instructions on how to access the server.
@@ -20,9 +20,9 @@ Our dataset contains 689 minutes of recorded event streams, and 1.6 million anno
 ## Environment Installation & Set up
 To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
 
-If you use Linux OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/linux.html).
+- If you use Linux OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/linux.html).
 
-If you use Windows OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/windows.html).
+- If you use Windows OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/windows.html).
 
 
 ## Downloading the repository
