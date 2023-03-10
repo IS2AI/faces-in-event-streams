@@ -21,11 +21,10 @@ Further, this repo contains pre-processing scripts and instructions for inferenc
 # Environment Installation & Set up
 To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
 
-If you use Linux, please proceed with the following instructions:
-https://docs.prophesee.ai/stable/installation/linux.html
+If you use Linux OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/linux.html).
 
-If you use Windows, please proceed with the following instructions:
-https://docs.prophesee.ai/stable/installation/windows.html
+If you use Windows OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/windows.html).
+
 
 # Downloading the repository
 
