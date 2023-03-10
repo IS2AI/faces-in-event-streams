@@ -32,10 +32,11 @@ To be able to launch training or inference, first of all it is required to insta
 $ git clone https://github.com/IS2AI/faces-in-event-streams
 ```
 
-## Inference
+## Face detection
+ - ### Inference
 To be able to run face bounding box or bounding box + facial landmarks detection models, please proceed with the following instructions:
 https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference
-## Training
+- ### Training
 1. To be able to train the model to detect face bounding box in event streams, follow these instructions:
 https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training
 
