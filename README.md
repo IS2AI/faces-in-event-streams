@@ -10,7 +10,7 @@ To access the dataset and pre-trained models, please follow the link and provide
 
 After filling out the form, you will receive credentials and instructions on how to connect to our server where dataset is located.
 
-Alternatively, you can get the models and dataset from [google drive link] (https://drive.google.com/drive/folders/1btC_bkWV0RpU1JJKBUehH4_NaGG1SMov?usp=share_link)
+Alternatively, you can get the models and dataset from [google drive link](https://drive.google.com/drive/folders/1btC_bkWV0RpU1JJKBUehH4_NaGG1SMov?usp=share_link)
 
 
 
