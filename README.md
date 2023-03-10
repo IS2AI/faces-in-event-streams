@@ -18,7 +18,7 @@
 
 <p align="center"> Further, this repo contains pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. </p>
 
-## Environment Installation & Set up
+### Environment Installation & Set up
 To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
 
 - If you use Linux OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/linux.html).
@@ -26,17 +26,17 @@ To be able to launch training or inference, first of all it is required to insta
 - If you use Windows OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/windows.html).
 
 
-## Downloading the repository
+### Downloading the repository
 
 ```
 $ git clone https://github.com/IS2AI/faces-in-event-streams
 ```
 
-## Face detection
- - ### Inference
+### Face detection
+ - #### Inference
 To be able to run face bounding box or bounding box + facial landmarks detection models, please proceed with the following instructions:
 https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference
-- ### Training
+- #### Training
 1. To be able to train the model to detect face bounding box in event streams, follow these instructions:
 https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training
 
