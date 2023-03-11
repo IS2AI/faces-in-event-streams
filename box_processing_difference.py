@@ -7,8 +7,10 @@
     lips=np.zeros((len(box_events),), dtype=EventBbox)  # left mouse corner
 
 # Delete the lines [160-163] inclusive on both sides, instead insert the following code
-        if k=="x0":		        if k == "confidence":
-            x0 = box_events["x0"]-w/2		            out["class_confidence"] = box_events["confidence"]
+        if k == "confidence":
+	    out["class_confidence"] = box_events["confidence"]
+	if k=="x0":		        
+            x0 = box_events["x0"]-w/2		            
         elif k=="y0":		
             y0 = box_events["y0"]-h/2		
         elif k=="x1":		
@@ -96,8 +98,8 @@
         elif k=='class_id':		
             out['class_id'] = box_events['class_id']		
             id=out['class_id']        		
-        else:		        else:
-            out[k] = box_events[k]		            out[k] = box_events[k]
+        else:		        
+            out[k] = box_events[k]		            
             if k=='track_id':		
                 tid=box_events['track_id']		
             if k=="t":		
