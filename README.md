@@ -55,4 +55,24 @@ alternatively, you can follow instructions from [here](https://docs.prophesee.ai
 ```
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
 ```
+As we intoduced for our model ResNet feature extractors, to be able to employ them please, change 
+- feature_extractors.py
+file.
+
+### Facial landmark detection
+To train or detect five point facial landmark detection, the change to the following files should be done:
+- box_processing.py
+- display_frame.py
+Further, train and inference instructions are the same as for face detection part, declared above.
+
+Since 
+- feature_extractors.py
+- box_processing.py
+- display_frame.py
+
+are files which originally comes as part of Metavision SDK which comes under Prophesee Metavision Licensing, we will share only changes that has to be done on the installed Metavision SDK package (once you install Metavision SDK, you will have direct access to the original files).
+
+
+
+
 
