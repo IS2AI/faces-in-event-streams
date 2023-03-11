@@ -83,8 +83,9 @@
         for i, (tlx, tly, brx, bry) in enumerate(zip(topleft_x14, topleft_y14, botright_x14, botright_y14)):		
             #color = colors[i].tolist()		
             cv2.circle(frame, (int((tlx + ((brx-tlx) / 2))), int((tly + ((bry-tly) / 2)))), 0, color, 5)		
-    if np.any(box_events['class_id']==1):      		    colors = choose_color(box_events, color_from, force_color=force_color)
-        events0=box_events[box_events['class_id']==1]		
+    if np.any(box_events['class_id']==1):      		    
+        colors = choose_color(box_events, color_from, force_color=force_color)
+	events0=box_events[box_events['class_id']==1]		
         num_box=len(events0)		
         print(events0)		
         topleft_x0 = np.clip(events0["x"], 0, width - 1).astype('int')		
@@ -98,6 +99,6 @@
         else:		
             color=(255,0,255)		
         #colors = choose_color(box_events, color_from, force_color=force_color)		
-        for i, (tlx, tly, brx, bry) in enumerate(zip(topleft_x0, topleft_y0, botright_x0, botright_y0)):		    for i, (tlx, tly, brx, bry) in enumerate(zip(topleft_x, topleft_y, botright_x, botright_y)):
-            #color = colors[i].tolist()		        color = colors[i].tolist()
-            cv2.rectangle(frame, (tlx, tly), (brx, bry), color, thickness)		        cv2.rectangle(frame, (tlx, tly), (brx, bry), color, thickness)
+        for i, (tlx, tly, brx, bry) in enumerate(zip(topleft_x0, topleft_y0, botright_x0, botright_y0)):		  
+            color = colors[i].tolist()	        
+            cv2.rectangle(frame, (tlx, tly), (brx, bry), color, thickness)		        
