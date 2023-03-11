@@ -19,7 +19,7 @@
 <p align="center"> Further, this repo contains pre-processing scripts and instructions for inference and model training for face and facial landmark detection from events streams. </p>
 
 ### Environment Installation & Set up
-To be able to launch training or inference, first of all it is required to install Metavision SDK environment.
+To launch training or inference, first of all it is required to install Metavision SDK environment.
 
 - If you use Linux OS, install Metavision SDK environment from this [link](https://docs.prophesee.ai/stable/installation/linux.html).
 
@@ -34,14 +34,15 @@ $ git clone https://github.com/IS2AI/faces-in-event-streams
 
 ### Face detection
  - #### Inference
-To be able to run inference for face bounding box model, use the following command:
+To run inference for face bounding box model, use the following command:
 ```
 python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model --record_file <RAW file to process> --display
 ```
 alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference) link.
 
 - #### Training
-1. To be able to train the model to detect face bounding box in event streams, run:
+Before launching training, please place label_map_dictionary.json, which comes as part of this repo, in the same folder where your train/val/test folders are located.
+1. To train the model to detect face bounding box in event streams, run:
 
 ```
 cd <path to train_detection.py>
@@ -50,7 +51,7 @@ python3 train_detection.py <path to output directory> <path to dataset>
 
 alternatively, you can follow instructions from [here](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training).
 
-2. To be able to select the feature extractor, you need to define in the --featire_sextractor option using:
+2. To select the feature extractor, you need to define --feature_extractor option using:
 ```
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
 ```
