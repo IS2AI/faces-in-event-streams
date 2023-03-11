@@ -3,9 +3,12 @@
         return frame
 
 # Delete lines [70-94] inclusive on both sides of the original(!) file, and insert the following instead
-    if np.any(box_events['class_id']==2):		    topleft_y = np.clip(box_events["y"], 0, height - 1).astype('int')
-        events1=box_events[box_events['class_id']==2]		    botright_x = np.clip(box_events["x"] + box_events["w"], 0, width - 1).astype('int')
-        topleft_x11 = np.clip(events1["x"], 0, width - 1).astype('int')		    botright_y = np.clip(box_events["y"] + box_events["h"], 0, height - 1).astype('int')
+    if np.any(box_events['class_id']==2):		    
+        topleft_y = np.clip(box_events["y"], 0, height - 1).astype('int')
+        events1=box_events[box_events['class_id']==2]		    
+        botright_x = np.clip(box_events["x"] + box_events["w"], 0, width - 1).astype('int')
+        topleft_x11 = np.clip(events1["x"], 0, width - 1).astype('int')		    
+        botright_y = np.clip(box_events["y"] + box_events["h"], 0, height - 1).astype('int')
         topleft_y11 = np.clip(events1["y"], 0, height - 1).astype('int')		
         botright_x11 = np.clip(events1["x"] + events1["w"], 0, width - 1).astype('int')		
         botright_y11 = np.clip(events1["y"] + events1["h"], 0, height - 1).astype('int')		
