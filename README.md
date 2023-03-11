@@ -34,11 +34,24 @@ $ git clone https://github.com/IS2AI/faces-in-event-streams
 
 ### Face detection
  - #### Inference
-To be able to run face bounding box or bounding box + facial landmarks detection models, please proceed with the following instructions:
-https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference
+To be able to run inference for face bounding box model, use the following command:
+```
+python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model --record_file <RAW file to process> --display
+```
+alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference) link.
+
 - #### Training
-1. To be able to train the model to detect face bounding box in event streams, follow these instructions:
-https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training
+1. To be able to train the model to detect face bounding box in event streams, run:
+
+```
+cd <path to train_detection.py>
+python3 train_detection.py <path to output directory> <path to dataset>
+```
+
+alternatively, you can follow instruction from [here](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training)
 
 2.To be able to select the feature extractor, you need to define in the option using:
+```
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
+```
+
