@@ -48,9 +48,9 @@ cd <path to train_detection.py>
 python3 train_detection.py <path to output directory> <path to dataset>
 ```
 
-alternatively, you can follow instruction from [here](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training)
+alternatively, you can follow instructions from [here](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training).
 
-2.To be able to select the feature extractor, you need to define in the option using:
+2. To be able to select the feature extractor, you need to define in the --featire_sextractor option using:
 ```
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
 ```
