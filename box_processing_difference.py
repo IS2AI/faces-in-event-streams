@@ -1,6 +1,6 @@
 # Please navigate to original box_processing.py and add the following code after line 158 of the original file
 
-	lip=np.zeros((len(box_events),), dtype=EventBbox)	# right mouse corner	
+    lip=np.zeros((len(box_events),), dtype=EventBbox)	# right mouse corner	
     eye1=np.zeros((len(box_events),), dtype=EventBbox)	# right eye	
     eye2=np.zeros((len(box_events),), dtype=EventBbox)	# left eye	
     nose=np.zeros((len(box_events),), dtype=EventBbox)	# nose
