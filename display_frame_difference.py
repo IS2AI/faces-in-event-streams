@@ -1,5 +1,5 @@
 # Please navigate to original display_frame.py and add the following code after line 63 of the original file
-	    if isinstance(box_events,float):		
+     if isinstance(box_events,float):		
         return frame
 
 # Delete lines [70-94] inclusive on both sides of the original(!) file, and insert the following instead
