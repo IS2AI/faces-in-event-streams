@@ -10,7 +10,7 @@
 - To access the dataset and pre-trained models from our servers directly, please follow the [link]( https://forms.gle/R7WHmVueCoyvYvrY9) and provide your informaton.
  After filling out the form, you will receive credentials and instructions on how to access the server.
 
-- Alternatively, you can get the [pre-trained models](https://drive.google.com/drive/folders/1I2l-_-RmRLAaS6DF9OfCfq9-VmvrgETQ?usp=share_link) and dataset from [google drive link](https://drive.google.com/drive/folders/1btC_bkWV0RpU1JJKBUehH4_NaGG1SMov?usp=share_link).
+- Pre-trained models come together with the dataset, alternatively pre-trained models are available on [this google drive link](https://drive.google.com/drive/folders/1I2l-_-RmRLAaS6DF9OfCfq9-VmvrgETQ?usp=share_link).
 
 
 
