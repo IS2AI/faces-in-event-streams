@@ -74,6 +74,15 @@ Since
 
 are files which originally comes as part of Metavision SDK which comes under Prophesee Metavision Licensing, we will share only changes that has to be done on the installed Metavision SDK package (once you install Metavision SDK, you will have direct access to the original files).
 
+### If you use the dataset/source code/pre-trained models in your research, please cite our work:
+@article{Bissarinova2023,
+author = "Ulzhan Bissarinova and Tomiris Rakhimzhanova and Daulet Kenzhebalin and Huseyin Atakan Varol",
+title = "{Faces in Event Streams (FES): An Annotated Face Dataset for Event Cameras}",
+year = "2023",
+month = "5",
+url = "https://www.techrxiv.org/articles/preprint/Faces_in_Event_Streams_FES_An_Annotated_Face_Dataset_for_Event_Cameras/22826654",
+doi = "10.36227/techrxiv.22826654.v1"
+}
 
 
 
