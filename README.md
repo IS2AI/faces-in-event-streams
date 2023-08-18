@@ -16,6 +16,8 @@
 
 The final dataset contains both the originally collected raw files and the preprocessed data. The raw files contain video in the “raw” format that can be rendered, and annotations in the “xml” format. Meanwhile, the converted files contain a dataset ready for machine learning training in the “npy” format, annotations for bounding box and facial landmarks, and “h5” files representing the Python binary format to work with the event stream data as an array.
 
+The integration of event streams with annotated labels was based on the time dimension. Since events were recorded at microsecond precision, the timeline of the labels was also converted to microseconds, although it originally had millisecond precision and was derived based on a frame number and frame rate of 30 Hz.
+
 
 
 ## Documentation
