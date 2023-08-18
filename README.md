@@ -12,6 +12,10 @@
 
 - Pre-trained models come together with the dataset, alternatively pre-trained models are available on [this google drive link](https://drive.google.com/drive/folders/1I2l-_-RmRLAaS6DF9OfCfq9-VmvrgETQ?usp=share_link).
 
+## Dataset description
+
+The final dataset contains both the originally collected raw files and the preprocessed data. The raw files contain video in the “raw” format that can be rendered, and annotations in the “xml” format. Meanwhile, the converted files contain a dataset ready for machine learning training in the “npy” format, annotations for bounding box and facial landmarks, and “h5” files representing the Python binary format to work with the event stream data as an array.
+
 
 
 ## Documentation
