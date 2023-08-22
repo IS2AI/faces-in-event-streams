@@ -13,7 +13,7 @@
 - Pre-trained models come together with the dataset, alternatively pre-trained models are available on [this google drive link](https://drive.google.com/drive/folders/1I2l-_-RmRLAaS6DF9OfCfq9-VmvrgETQ?usp=share_link).
 
 ## Dataset description
-[https://github-production-user-asset-6210df.s3.amazonaws.com/102503259/262308804-1749ff3e-9122-4810-ad97-d3dfcdbcdc57.png](https://github.com/IS2AI/faces-in-event-streams/assets/102503259/1749ff3e-9122-4810-ad97-d3dfcdbcdc57)
+[[https://github.com/IS2AI/faces-in-event-streams/assets/102503259/1749ff3e-9122-4810-ad97-d3dfcdbcdc57](https://github.com/IS2AI/faces-in-event-streams/assets/102503259/1749ff3e-9122-4810-ad97-d3dfcdbcdc57)](https://github.com/IS2AI/faces-in-event-streams/assets/102503259/1749ff3e-9122-4810-ad97-d3dfcdbcdc57)
 The final dataset contains both the originally collected raw files and the preprocessed data. The raw files contain video in the “raw” format that can be rendered, and annotations in the “xml” format. Meanwhile, the converted files contain a dataset ready for machine learning training in the “npy” format, annotations for bounding box and facial landmarks, and “h5” files representing the Python binary format to work with the event stream data as an array.
 
 The integration of event streams with annotated labels was based on the time dimension. Since events were recorded at microsecond precision, the timeline of the labels was also converted to microseconds, although it originally had millisecond precision and was derived based on a frame number and frame rate of 30 Hz.
