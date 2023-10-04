@@ -64,12 +64,16 @@ python3 train_detection.py <path to output directory> <path to dataset> --featur
 
 ### Facial landmark detection
 To train or detect five point facial landmark detection, the change to the following files should be done:
+- feature_extractors.py
 - box_processing.py
 - display_frame.py
+- modules.py
 
 Changes which need to be done can be found in our repo in files:
 - box_processing_difference.py
 - display_frame_difference.py
+- modules_difference.py
+- feature_extractors_difference.py
 
 Further, train and inference instructions are the same as for face detection part, declared above.
 
