@@ -2,7 +2,7 @@
 
 ![Faces in Event Streams](https://user-images.githubusercontent.com/5821328/212868401-00f986d8-6bcf-44be-9d76-5bac4b6f21d7.png)
 
-<p align="center"> Fig.1: Faces and facial landmarks detected using the model produced by the given project.</p>
+<p align="center"> Figure 1: Faces and facial landmarks detected using the model produced by the given project.</p>
 
 
 
@@ -16,7 +16,7 @@
 
 ## Dataset description
 ![dataset2](https://github.com/IS2AI/faces-in-event-streams/assets/102503259/b33a16cf-d5d3-4658-bfa9-3f1028cbc79e)
-<p align="center">  Fig.2: File structure of the FES dataset, with green representing an event stream and blue representing annotations: a) The preprocessed data are divided into three folders, with each folder containing only bounding box annotations,both bounding box and facial landmark annotations, and event streams in the h5 format. The raw dataset contains lab and wild folders with raw videos and annotations. b) Each controlled experiment (Lab) file has an individual subject ID and an experiment ID. Each file in the uncontrolled (Wild) dataset contains a scene ID that provides information about the location of a recording and the number (ID) of an experiment.</p>
+<p align="center">  Figure 2: File structure of the FES dataset, with green representing an event stream and blue representing annotations: a) The preprocessed data are divided into three folders, with each folder containing only bounding box annotations,both bounding box and facial landmark annotations, and event streams in the h5 format. The raw dataset contains lab and wild folders with raw videos and annotations. b) Each controlled experiment (Lab) file has an individual subject ID and an experiment ID. Each file in the uncontrolled (Wild) dataset contains a scene ID that provides information about the location of a recording and the number (ID) of an experiment.</p>
 
 The final dataset contains both the originally collected raw files and the preprocessed data. The raw files contain video in the “raw” format that can be rendered, and annotations in the “xml” format. Meanwhile, the converted files contain a dataset ready for machine learning training in the “npy” format, annotations for bounding box and facial landmarks, and “h5” files representing the Python binary format to work with the event stream data as an array.
 
