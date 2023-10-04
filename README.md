@@ -44,7 +44,7 @@ To run inference for face bounding box model, use the following command:
 ```
 python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model --record_file <RAW file to process> --display
 ```
-alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference) link.
+alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/samples/modules/ml/detection_and_tracking_inference_py.html#chapter-samples-ml-detection-and-tracking-inference-python) link.
 
 - #### Training
 Before launching training, please place label_map_dictionary.json, which comes as part of this repo, in the same folder where your train/val/test folders are located.
