@@ -1,6 +1,8 @@
 # Faces in Event Streams (FES): An Annotated Face Dataset for Event Cameras
 ![Faces in Event Streams](https://user-images.githubusercontent.com/5821328/212868401-00f986d8-6bcf-44be-9d76-5bac4b6f21d7.png)
-'''<h6><p align="center"> Figure 1: Faces and facial landmarks detected using the model produced by the given project.</p></h6>'''
+```
+<h6><p align="center"> Figure 1: Faces and facial landmarks detected using the model produced by the given project.</p></h6>
+```
 
 <p align="center"> Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks. </p>
 
