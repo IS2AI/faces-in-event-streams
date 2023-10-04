@@ -77,6 +77,7 @@ Since
 - feature_extractors.py
 - box_processing.py
 - display_frame.py
+- modules.py
 
 are files which originally comes as part of Metavision SDK which comes under Prophesee Metavision Licensing, we will share only changes that has to be done on the installed Metavision SDK package (once you install Metavision SDK, you will have direct access to the original files).
 
