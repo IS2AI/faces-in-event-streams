@@ -8,7 +8,6 @@ class ResNet_18(nn.Module):
     def __init__(self, cin=1, base=16, cout=256):
         print('ResNet-18')
         super(Resnet_18, self).__init__()
-        self.base = base
         self.cout = cout
         self.levels = 5
 
@@ -57,10 +56,9 @@ class ResNet_34(nn.Module):
     print('ResNet-34')
     def __init__(self, cin=1, base=16, cout=256):
         super(ResNet_34, self).__init__()
-        self.base = base
+        
         self.cout = cout
         self.levels = 5
-
         self.conv1 = SequenceWise(nn.Sequential(
             ConvLayer(cin, self.base, kernel_size=7, stride=2, padding=3),
             nn.MaxPool2d(kernel_size=3,stride=2,padding=1),
@@ -115,7 +113,6 @@ class ResNet_50(nn.Module):
         print('ResNet-50')
         super(Resnet_50, self).__init__()
         self.levels = 5
-        self.base = base
         self.cout = cout
         self.in_channels = 64
         print("Hello")
