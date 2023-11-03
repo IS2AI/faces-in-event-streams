@@ -92,7 +92,7 @@ title = "{Faces in Event Streams (FES): An Annotated Face Dataset for Event Came
 year = "2023",<br /> 
 month = "5",<br /> 
 url = "https://www.techrxiv.org/articles/preprint/Faces_in_Event_Streams_FES_An_Annotated_Face_Dataset_for_Event_Cameras/22826654",<br /> 
-doi = "10.36227/techrxiv.22826654.v1"<br /> 
+doi = "10.36227/techrxiv.22826654.v2"<br /> 
 }
 
 
