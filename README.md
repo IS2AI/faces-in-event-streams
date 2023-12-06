@@ -38,7 +38,7 @@ To launch training or inference, first of all it is required to install Metavisi
 $ git clone https://github.com/IS2AI/faces-in-event-streams
 ```
 
-### Face detection
+### Face detection model
  - #### Inference
 To run inference for face bounding box model, use the following command:
 ```
@@ -62,7 +62,7 @@ alternatively, you can follow instructions from [here](https://docs.prophesee.ai
 python3 train_detection.py <path to output directory> <path to dataset> --feature_extractor <select feature extractor: Vanilla, ResNet_18, ResNet_34, ResNet_50>
 ```
 
-### Facial landmark detection
+### Facial landmark detection model
 To train or detect five point facial landmark detection, the change to the following files should be done:
 - feature_extractors.py
 - box_processing.py
