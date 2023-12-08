@@ -35,7 +35,7 @@ To launch training or inference, first of all it is required to install Metavisi
 ### Downloading the repository
 
 ```
-$ git clone https://github.com/IS2AI/faces-in-event-streams
+git clone https://github.com/IS2AI/faces-in-event-streams
 ```
 
 ### Face detection model
