@@ -5,8 +5,7 @@
 <p align="center"> Our dataset contains 689 minutes of recorded event streams, and 1.6 million annotated faces with bounding box and five point facial landmarks. </p>
 
 ## Access
-- To access the dataset and pre-trained models, please follow the [link]( https://forms.gle/R7WHmVueCoyvYvrY9) and provide your informaton.
- After filling out the form, you will receive credentials and instructions on how to access the server.
+- To access the dataset and pre-trained models, please follow the [link](https://huggingface.co/datasets/issai/Faces_in_Event_Streams).
 
 - Pre-trained models come together with the dataset, alternatively pre-trained models are available on [this google drive link](https://drive.google.com/drive/folders/1I2l-_-RmRLAaS6DF9OfCfq9-VmvrgETQ?usp=share_link).
 
